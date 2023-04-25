@@ -13,12 +13,6 @@ const show = ref(false)
       <UserAvatar />
     </div>
 
-    <HoverButton @click="show = true">
-      <span class="text-xl text-[#4f555e] dark:text-white">
-        <SvgIcon icon="ri:settings-4-line" />
-      </span>
-    </HoverButton>
-
     <Setting v-if="show" v-model:visible="show" />
   </footer>
 </template>

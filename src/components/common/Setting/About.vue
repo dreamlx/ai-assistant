@@ -46,18 +46,10 @@ onMounted(() => {
       </h2>
       <div class="p-2 space-y-2 rounded-md bg-neutral-100 dark:bg-neutral-700">
         <p>
-          此项目开源于
-          <a
-            class="text-blue-600 dark:text-blue-500"
-            href="https://github.com/Chanzhaoyu/chatgpt-web"
-            target="_blank"
-          >
-            GitHub
-          </a>
-          ，免费且基于 MIT 协议，没有任何形式的付费行为！
+          欢迎使用基于LLM模型的智能助理系列, 当前助理主要协助销售团队日常业务完成周报.
         </p>
         <p>
-          如果你觉得此项目对你有帮助，请在 GitHub 帮我点个 Star 或者给予一点赞助，谢谢！
+          未来路线图: 销售助理会协助销售团队完成日常工作，如排程会议、安排差旅、整理文件等。此外，销售助理还需要为销售团队提供各种支持，例如制作销售报告、分析市场数据等。
         </p>
       </div>
       <p>{{ $t("setting.api") }}：{{ config?.apiModel ?? '-' }}</p>
